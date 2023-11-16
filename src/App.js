@@ -7,10 +7,11 @@ function App() {
   const [meterValue, setMeterValue] = useState(0)
   const [currentInch, setCurrentInch] = useState(inchValue)
 
+  //get inchs value from user
   const handleInputChange = (e) => {
     getInchValue(e.target.value)
   }
-
+  //calculate the inch to meter
   const handleCalculate = () => {
     const inch = parseFloat(inchValue)
     const meter = inch * 0.0254
