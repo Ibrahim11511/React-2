@@ -7,6 +7,10 @@
   border: none;
 }
 
+::placeholder {
+  padding-left: 15px;
+}
+
 .header {
   color: #FBFBFB;
   font-family: 'Glory';
@@ -15,6 +19,8 @@
   font-weight: 400;
   line-height: normal;
   margin: 0 50px 20px 50px;
+  text-align: center;
+  text-wrap: wrap;
 }
 
 .label {
@@ -28,15 +34,15 @@
 }
 
 .inchs-input {
-  width: 440px;
+  width: 100%;
   height: 50px;
   flex-shrink: 0;
   background: #FBFBFB;
-  padding: 0 15px;
+  /* padding-left: 15px; */
 }
 
 .calc-btn {
-  width: 470px;
+  width: 100%;
   height: 50px;
   flex-shrink: 0;
   background: #007BFF;
@@ -54,7 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 470px;
+  width: 100%;
   height: 50px;
   flex-shrink: 0;
   background: #28A745;

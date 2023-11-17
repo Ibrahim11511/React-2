@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 480px;
+    width: 50vw;
     flex-shrink: 0;
     padding: 20px;
     background: #323232;
